@@ -21,7 +21,7 @@ function getUsers(){
     
     let html=''
 
-    fetch('https://bscs2bapi-crud.onrender.com/', {mode: 'cors'})
+    fetch('https://bscs2bapi-crud.onrender.com/api/members', {mode: 'cors'})
     .then((response)=>{
         console.log(response)
         return response.json();
